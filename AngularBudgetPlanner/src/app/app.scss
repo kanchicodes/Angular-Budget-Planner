@@ -1,0 +1,26 @@
+/* Global styles with fiery red gradient */
+
+body {
+  background: linear-gradient(135deg, #ff0000, #b22222);
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Example for buttons or other elements to use red theme */
+button {
+  background-color: #b22222;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff4500;
+}
+
+/* Additional styles can be added here to apply the fiery red theme throughout the app */
